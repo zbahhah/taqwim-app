@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Astronomical Calculator – User manual – Taqwim</title>
+<link rel="icon" href="../../icon.png">
+<link rel="stylesheet" href="../../style.css">
+<!-- Made by tools/make-site.py; do not edit by hand. -->
+</head>
+<body>
+<header class="top">
+<a class="brand" href="../../en.html"><img src="../../icon.png" alt="" width="32" height="32"><span>Taqwim</span></a>
+<nav>
+<a href="00-index.html">User manual</a>
+<a href="../../privacy.html">Privacy</a>
+<a href="../ar/08-astronomical-calculator.html" lang="ar">العربية</a>
+</nav>
+</header>
+<main>
+<div class="manual">
+<aside class="chapters"><strong>Contents</strong><ol><li><a href="00-index.html">Taqwim user manual</a></li><li><a href="01-getting-started.html">Getting started</a></li><li><a href="02-prayer-times.html">Prayer times</a></li><li><a href="03-alerts-and-athan.html">Alerts and the Athan</a></li><li><a href="04-calendar-and-occasions.html">Calendar and Islamic occasions</a></li><li><a href="05-qibla.html">The Qibla</a></li><li><a href="06-maps-mosques-offline.html">Maps, nearby mosques and offline areas</a></li><li><a href="07-sky-moon-astronomy.html">Sky, Moon and astronomy</a></li><li><a href="08-astronomical-calculator.html" aria-current="page">The Astronomical Calculator</a></li><li><a href="09-settings.html">Settings</a></li><li><a href="10-backup-and-restore.html">Backup and restore</a></li><li><a href="11-troubleshooting-faq.html">Troubleshooting and questions</a></li><li><a href="12-privacy-and-credits.html">Privacy and credits</a></li></ol></aside>
+<article><h1 id="the-astronomical-calculator">The Astronomical Calculator</h1><nav class="toc"><strong>On this page</strong><ul><li><a href="#entering-a-date">Entering a date</a></li><li><a href="#year-cycles">Year cycles</a></li><li><a href="#moon-at-a-moment">Moon at a moment</a></li><li><a href="#historical-day">Historical day</a></li></ul></nav>
+<p>The Astronomical Calculator answers questions about the cycles of the Sun and the Moon for any date from 4713 BC to 9999 AD, including dates in history. It says how sure each answer is instead of showing false precision.</p>
+<p>Open it with the <strong>Astronomical calculator</strong> tile on the home screen. It has three tabs: <strong>Year cycles</strong>, <strong>Moon at a moment</strong> and <strong>Historical day</strong>. Nothing you type here is saved.</p>
+<p></p>
+<h2 id="entering-a-date">Entering a date</h2>
+<p>Every tab uses the same date form:</p>
+<ul><li><strong>Day</strong>, <strong>Month</strong> and <strong>Year</strong>;</li><li>the era: <strong>AD</strong> or <strong>BC</strong> (there is no year 0: 1 BC is followed by AD 1);</li><li>the calendar:<ul><li><strong>Historical (Julian before 1582)</strong> (default): the Julian calendar up to 4 October 1582 and the Gregorian calendar from 15 October 1582, as history recorded them;</li><li><strong>Proleptic Gregorian</strong>: the Gregorian rules carried back before 1582, for dates already given that way.</li></ul></li></ul>
+<p>The days 5 to 14 October 1582 never existed in the historical calendar; Taqwim says so and suggests the proleptic Gregorian calendar for them. A date that does not exist ("This date does not exist.") or lies outside the range ("The date is outside the range: 4713 BC to 9999 AD.") is refused with a clear line.</p>
+<p>Results give dates in the historical form, with the proleptic Gregorian date beside it when the two differ, and the Julian Day Number.</p>
+<h3 id="times-in-history">Times in history</h3>
+<p>Before the 19th century there were no time zones, so the calculator gives times in <strong>local solar time</strong>: the time a sundial at your place would show. The place is your current place in Taqwim (<strong>Place:</strong> at the bottom of the form).</p>
+<h3 id="how-sure-the-answers-are">How sure the answers are</h3>
+<p>The Earth's rotation slows down irregularly, so the clock time of an event long ago (or far in the future) is uncertain. When this uncertainty is more than a minute, the result says so in words, for example that the clock time may be off by about a number of minutes. Results that do not depend on the Earth's rotation, such as elapsed time or the Moon's phase angle, do not carry this note.</p>
+<h2 id="year-cycles">Year cycles</h2>
+<p>To compare solar and lunar years:</p>
+<ol><li>Tap <strong>Year cycles</strong>.</li><li>Under <strong>Count</strong>, type a number (1 to 100,000) and choose <strong>solar years</strong>, <strong>lunar years</strong> or <strong>lunar months</strong>. The default is 300 solar years.</li><li>Set <strong>From the date</strong>, the start of the span.</li></ol>
+<p>Two results appear:</p>
+<ul><li><strong>From the mean lengths:</strong> the span in days, then in the other units (years, months, days, hours, minutes and seconds), using the mean length of the tropical year and of the lunar month at that time. A lunar year is 12 lunar months.</li><li><strong>Counted in the real sky:</strong> the same count made by following the real Sun and Moon from the start date: each solar year ends when the Sun returns to the same place, and each lunar month when the Moon returns to the same phase. Real months vary by many hours around their mean, so this result is the one that matches the sky.</li></ul>
+<p>For example, 300 solar years come to about 309 lunar years. The calculator gives the numbers only, with no interpretation of its own.</p>
+<h2 id="moon-at-a-moment">Moon at a moment</h2>
+<p>To see the Moon at any moment in history:</p>
+<ol><li>Tap <strong>Moon at a moment</strong>.</li><li>Set the <strong>Date</strong> and the <strong>Time (local solar time)</strong>. The default time is 19:00.</li></ol>
+<p>The result shows:</p>
+<ul><li>the Moon's picture, phase name and phase angle;</li><li>the illuminated fraction and the age since the last new moon;</li><li>the last new moon, the next full moon and the next new moon, each with its date and local solar time;</li><li>the Moon's altitude and azimuth at that moment, and whether it is above the horizon;</li><li>within three days after a new moon, <strong>The crescent on the evenings after the new moon</strong>: Odeh's visibility zone for each evening at your place (see <a href="07-sky-moon-astronomy.html#what-the-crescent-verdicts-mean">the crescent verdicts</a>);</li><li>the uncertainty of the time.</li></ul>
+<h2 id="historical-day">Historical day</h2>
+<p>To see the prayer times and the lunar month of any day in history:</p>
+<ol><li>Tap <strong>Historical day</strong>.</li><li>Set the <strong>Date</strong>.</li><li>Choose the <strong>Calculation method</strong>. The default is the Muslim World League, whose Fajr and Isha both follow the Sun's angle. Methods with a fixed interval for Isha are modern rules.</li></ol>
+<p>The result shows:</p>
+<ul><li>the weekday, the date in the historical and proleptic Gregorian calendars, and the Julian Day Number;</li><li><strong>Prayer times</strong>: the seven times of the day (Fajr to Isha, with sunrise and sunset) in local solar time, and the day's length;</li><li><strong>Lunar month</strong>:<ul><li>from 1 Muharram 1 AH (16 July 622, Julian) on, the Hijri date counted with months that begin on the evening after the crescent is first visible at your place;</li><li>before the Hijra, the day of the lunar month counted the same way, with the month's first evening and its new moon.</li></ul></li></ul>
+<aside class="note"><p>The month names before the year 10 AH are a reconstruction, since months may then have been intercalated. When the time uncertainty is large, whether the crescent was visible on a given evening is uncertain too; the result says so.</p></aside>
+<p>The method chosen here replaces your usual one for this tab only, and your time offsets are not applied. Your other prayer settings, such as the Asr time and the high-latitude rule, still are.</p><nav class="steps"><a href="07-sky-moon-astronomy.html">Previous: Sky, Moon and astronomy</a><a href="09-settings.html">Next: Settings</a></nav></article>
+</div>
+</main>
+<footer>Taqwim is free for every Muslim. · <a href="../../privacy.html">Privacy</a></footer>
+</body>
+</html>

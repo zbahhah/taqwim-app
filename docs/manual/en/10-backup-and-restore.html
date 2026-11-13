@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Backup and restore – User manual – Taqwim</title>
+<link rel="icon" href="../../icon.png">
+<link rel="stylesheet" href="../../style.css">
+<!-- Made by tools/make-site.py; do not edit by hand. -->
+</head>
+<body>
+<header class="top">
+<a class="brand" href="../../en.html"><img src="../../icon.png" alt="" width="32" height="32"><span>Taqwim</span></a>
+<nav>
+<a href="00-index.html">User manual</a>
+<a href="../../privacy.html">Privacy</a>
+<a href="../ar/10-backup-and-restore.html" lang="ar">العربية</a>
+</nav>
+</header>
+<main>
+<div class="manual">
+<aside class="chapters"><strong>Contents</strong><ol><li><a href="00-index.html">Taqwim user manual</a></li><li><a href="01-getting-started.html">Getting started</a></li><li><a href="02-prayer-times.html">Prayer times</a></li><li><a href="03-alerts-and-athan.html">Alerts and the Athan</a></li><li><a href="04-calendar-and-occasions.html">Calendar and Islamic occasions</a></li><li><a href="05-qibla.html">The Qibla</a></li><li><a href="06-maps-mosques-offline.html">Maps, nearby mosques and offline areas</a></li><li><a href="07-sky-moon-astronomy.html">Sky, Moon and astronomy</a></li><li><a href="08-astronomical-calculator.html">The Astronomical Calculator</a></li><li><a href="09-settings.html">Settings</a></li><li><a href="10-backup-and-restore.html" aria-current="page">Backup and restore</a></li><li><a href="11-troubleshooting-faq.html">Troubleshooting and questions</a></li><li><a href="12-privacy-and-credits.html">Privacy and credits</a></li></ol></aside>
+<article><h1 id="backup-and-restore">Backup and restore</h1><nav class="toc"><strong>On this page</strong><ul><li><a href="#what-a-backup-holds">What a backup holds</a></li><li><a href="#make-a-backup">Make a backup</a></li><li><a href="#restore-from-a-backup">Restore from a backup</a></li><li><a href="#the-device-s-own-backup">The device's own backup</a></li></ul></nav>
+<p>"Save your settings and your own sounds to a file you keep, to bring them back after clearing the app's data or on a new device."</p>
+<h2 id="what-a-backup-holds">What a backup holds</h2>
+<div class="table"><table><thead><tr><th>In the backup file</th><th>Not in the backup file</th></tr></thead><tbody><tr><td>All your settings, including the current place and the favourites</td><td>The offline map areas (download them again)</td></tr><tr><td>Your alert choices</td><td>The street data kept for the mosques and directions</td></tr><tr><td>The mosques you added</td><td></td></tr><tr><td>Your own sounds (except in the web version)</td><td></td></tr></tbody></table></div>
+<p>The file is named after the day it was made, for example <code>taqwim-backup-2026-11-06.json</code>.</p>
+<h2 id="make-a-backup">Make a backup</h2>
+<ol><li>Open Settings → <strong>General</strong>.</li><li>Under <strong>Backup</strong>, tap <strong>Back up settings</strong>.</li><li>Where the file goes depends on the device:<ul><li><strong>Android, iPhone and iPad:</strong> the system's save dialog opens; choose a place, such as a cloud drive or a folder.</li><li><strong>Windows, macOS and Linux:</strong> the file is saved straight into your <strong>Downloads</strong> folder. If a file of that name exists, Taqwim adds a number.</li><li><strong>Web:</strong> the browser downloads the file. "A backup from the browser holds no sounds."</li></ul></li><li>Taqwim confirms with <strong>Backup saved:</strong> and the file's name or place.</li></ol>
+<p></p>
+<h2 id="restore-from-a-backup">Restore from a backup</h2>
+<ol><li>Open Settings → <strong>General</strong>.</li><li>Tap <strong>Restore from a backup</strong> and choose the backup file.</li><li>Taqwim shows "This backup will replace all your current settings." and <strong>Made on:</strong> with the backup's date.</li><li>Tap <strong>Restore from a backup</strong> again to confirm, or <strong>Cancel</strong>.</li><li>Taqwim confirms: "Your settings were restored from the backup."</li></ol>
+<p>After a restore, the alerts are set again from the restored settings. Your own sounds are replaced by those in the backup; sounds that are not in the backup are removed.</p>
+<h3 id="if-the-restore-fails">If the restore fails</h3>
+<div class="table"><table><thead><tr><th>Message</th><th>Meaning</th></tr></thead><tbody><tr><td>This file is not a Taqwim backup.</td><td>Choose the <code>.json</code> file Taqwim made.</td></tr><tr><td>This backup comes from a newer Taqwim; update the app first.</td><td>Install the latest version, then restore.</td></tr><tr><td>The file is too large to be a backup.</td><td>The chosen file is not a backup.</td></tr><tr><td>The backup could not be read: …</td><td>The file is damaged; the message gives the reason.</td></tr></tbody></table></div>
+<h2 id="the-device-s-own-backup">The device's own backup</h2>
+<p>Your phone's own backup can also keep Taqwim's settings in your account, if you have it turned on: Google's backup on Android, and iCloud or computer backups on iPhone and iPad. You control this in your device's settings. The offline map areas are left out of these backups.</p>
+<aside class="note"><p>A backup file contains your saved places. Keep it somewhere private.</p></aside><nav class="steps"><a href="09-settings.html">Previous: Settings</a><a href="11-troubleshooting-faq.html">Next: Troubleshooting and questions</a></nav></article>
+</div>
+</main>
+<footer>Taqwim is free for every Muslim. · <a href="../../privacy.html">Privacy</a></footer>
+</body>
+</html>

@@ -32,6 +32,7 @@ a.dl:hover { border-color: var(--accent); }
 .chapters { position: sticky; top: 12px; align-self: start; font-size: 0.92rem; }
 .chapters ol { padding-inline-start: 1.3em; margin: 6px 0; }
 .chapters li { margin: 4px 0; }
+.chapters a[aria-current="page"] { color: var(--fg); font-weight: 700; text-decoration: none; }
 article { min-width: 0; }
 article img { max-width: min(100%, 420px); height: auto; display: block; margin: 12px auto;
   border: 1px solid var(--line); border-radius: 12px; }

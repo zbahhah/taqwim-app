@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Getting started – User manual – Taqwim</title>
+<link rel="icon" href="../../icon.png">
+<link rel="stylesheet" href="../../style.css">
+<!-- Made by tools/make-site.py; do not edit by hand. -->
+</head>
+<body>
+<header class="top">
+<a class="brand" href="../../en.html"><img src="../../icon.png" alt="" width="32" height="32"><span>Taqwim</span></a>
+<nav>
+<a href="00-index.html">User manual</a>
+<a href="../../privacy.html">Privacy</a>
+<a href="../ar/01-getting-started.html" lang="ar">العربية</a>
+</nav>
+</header>
+<main>
+<div class="manual">
+<aside class="chapters"><strong>Contents</strong><ol><li><a href="00-index.html">Taqwim user manual</a></li><li><a href="01-getting-started.html" aria-current="page">Getting started</a></li><li><a href="02-prayer-times.html">Prayer times</a></li><li><a href="03-alerts-and-athan.html">Alerts and the Athan</a></li><li><a href="04-calendar-and-occasions.html">Calendar and Islamic occasions</a></li><li><a href="05-qibla.html">The Qibla</a></li><li><a href="06-maps-mosques-offline.html">Maps, nearby mosques and offline areas</a></li><li><a href="07-sky-moon-astronomy.html">Sky, Moon and astronomy</a></li><li><a href="08-astronomical-calculator.html">The Astronomical Calculator</a></li><li><a href="09-settings.html">Settings</a></li><li><a href="10-backup-and-restore.html">Backup and restore</a></li><li><a href="11-troubleshooting-faq.html">Troubleshooting and questions</a></li><li><a href="12-privacy-and-credits.html">Privacy and credits</a></li></ol></aside>
+<article><h1 id="getting-started">Getting started</h1><nav class="toc"><strong>On this page</strong><ul><li><a href="#install-taqwim">Install Taqwim</a></li><li><a href="#the-first-launch">The first launch</a></li><li><a href="#the-home-screen">The home screen</a></li><li><a href="#change-your-location">Change your location</a></li></ul></nav>
+<p>This chapter covers installing Taqwim, the three steps of the first launch, the home screen, and how to change your location later.</p>
+<h2 id="install-taqwim">Install Taqwim</h2>
+<p>Get Taqwim from the download page of this website. It lists each version and says which are ready now.</p>
+<div class="table"><table><thead><tr><th>Device</th><th>How to install</th></tr></thead><tbody><tr><td>Android phone or tablet</td><td>Google Play, or the Android APK file from the download page</td></tr><tr><td>iPhone and iPad</td><td>The App Store only</td></tr><tr><td>Windows 10 and 11</td><td>The Windows installer</td></tr><tr><td>Mac with Apple silicon</td><td>The macOS disk image (<code>.dmg</code>)</td></tr><tr><td>Linux</td><td>The <code>.deb</code> package (Ubuntu, Debian) or the AppImage (any distribution)</td></tr><tr><td>Any computer or phone</td><td>The web version, in the browser</td></tr></tbody></table></div>
+<h3 id="android">Android</h3>
+<p>To install from Google Play:</p>
+<ol><li>Open Google Play and search for Taqwim.</li><li>Tap <strong>Install</strong>.</li></ol>
+<p>To install the APK file instead:</p>
+<ol><li>Download the Android APK from the download page.</li><li>Open the downloaded file. Android may ask you to allow installs from the app you used to open it; allow it for this install.</li><li>Tap <strong>Install</strong>.</li></ol>
+<h3 id="iphone-and-ipad">iPhone and iPad</h3>
+<p>Taqwim for iPhone and iPad is installed from the App Store only. It cannot be installed from GitHub or from a downloaded file.</p>
+<h3 id="windows">Windows</h3>
+<ol><li>Download the Windows installer.</li><li>Run it. It installs Taqwim for your Windows user only, without administrator rights, and adds a Start menu folder and a desktop shortcut.</li><li>If Windows shows "Windows protected your PC", choose <strong>More info</strong>, then <strong>Run anyway</strong>. This appears because the installer is not code-signed yet.</li></ol>
+<p>To uninstall, use Windows Settings → Apps. Your Taqwim settings stay in your user profile (<code>%APPDATA%\Taqwim</code>), so a later reinstall finds them again.</p>
+<h3 id="macos">macOS</h3>
+<ol><li>Download the macOS disk image and open it.</li><li>Drag Taqwim into the Applications folder.</li><li>The first time you open it, Control-click (or right-click) Taqwim and choose <strong>Open</strong>. Or open System Settings → Privacy &amp; Security and choose <strong>Open Anyway</strong>. This is needed because the app is not notarised by Apple yet.</li></ol>
+<p>The macOS version is for Macs with Apple silicon.</p>
+<h3 id="linux">Linux</h3>
+<ul><li><strong>Debian or Ubuntu:</strong> install the package with <code>sudo apt install ./Taqwim-Linux-amd64.deb</code>.</li><li><strong>Any distribution:</strong> make the AppImage runnable with <code>chmod +x Taqwim-Linux-x86_64.AppImage</code>, then run it.</li></ul>
+<h3 id="the-web-version">The web version</h3>
+<p>Open <strong>Web version</strong> on the download page. It keeps your settings in the browser's storage on that device. Compared with the apps, it has:</p>
+<ul><li>no prayer alerts, no Athan sounds and no own sounds;</li><li>no nearby mosques, directions or offline map areas;</li><li>"Use my location" only on a secure (<code>https://</code>) address.</li></ul>
+<h2 id="the-first-launch">The first launch</h2>
+<p>The first time Taqwim opens, it asks three questions. A counter at the top shows the step (1/3, 2/3, 3/3).</p>
+<p></p>
+<h3 id="step-1-language">Step 1: Language</h3>
+<ol><li>Tap <strong>العربية</strong> for Arabic, <strong>English</strong> for English, or <strong>Same as the device</strong> to follow your device's language.</li><li>Tap <strong>Continue</strong>.</li></ol>
+<p>You can change the language later in <a href="09-settings.html">Settings</a>.</p>
+<h3 id="step-2-location">Step 2: Location</h3>
+<p>Taqwim needs your location to compute the prayer times, the Qibla and the sky. It asks the device for its location as soon as this step opens; your device may ask you for permission first. The location is used on the device only and is never sent anywhere.</p>
+<p>While it searches, you see <strong>Finding your location…</strong>. Then:</p>
+<ul><li><strong>If a place is found,</strong> it is shown with its country and the words <strong>from GPS</strong>. If the name is a nearby village but you live in the town next to it, tap <strong>Not this place?</strong> and pick another place near the same point. Then tap <strong>Continue</strong>.</li><li><strong>If no place is found</strong> (permission refused, a computer without location, or no answer in time), a message says why. Taqwim still shows a <strong>Current suggestion</strong>, guessed from your device's time zone. Tap <strong>Keep this place</strong> to use it, or <strong>Try GPS again</strong>.</li></ul>
+<p>Under <strong>Or set the place another way</strong> you can always:</p>
+<ul><li>tap <strong>Choose from the list</strong> to pick your country and then your city;</li><li>tap <strong>Enter coordinates</strong> to type the latitude and longitude, for example <code>21.4225, 39.8262</code> for Makkah.</li></ul>
+<p>The location messages mean:</p>
+<div class="table"><table><thead><tr><th>Message</th><th>What to do</th></tr></thead><tbody><tr><td>Location permission was refused.</td><td>Allow location for Taqwim in the device settings, or choose from the list.</td></tr><tr><td>Location is not available on this device.</td><td>Choose from the list or enter coordinates. Most computers have no GPS.</td></tr><tr><td>Timed out finding the location.</td><td>Try again outdoors or near a window, or choose from the list.</td></tr><tr><td>This device has no location service.</td><td>Choose from the list or enter coordinates.</td></tr></tbody></table></div>
+<h3 id="step-3-prayer-method">Step 3: Prayer method</h3>
+<ol><li>Check <strong>Calculation method</strong>. Taqwim selects the method usually followed in your place's country; change it if your mosque follows another.</li><li>Choose the <strong>Asr time</strong>: <strong>Standard</strong> (the majority opinion) or <strong>Hanafi</strong>.</li><li>Tap <strong>Finish</strong>.</li></ol>
+<p>On Android, iPhone and iPad, Taqwim then asks for permission to show notifications, because prayer alerts are on by default. See <a href="03-alerts-and-athan.html">Alerts and the Athan</a>.</p>
+<p>The method and the Asr time can be changed later in Settings → <strong>Prayer</strong>. See <a href="02-prayer-times.html">Prayer times</a>.</p>
+<h2 id="the-home-screen">The home screen</h2>
+<p></p>
+<p>The bar at the top of every screen shows:</p>
+<ul><li>your country's two-letter code, the place's name and its neighbourhood or country. Tap the name to change the place;</li><li>the magnifier, which also opens the place search;</li><li>the settings button (sliders), which opens <a href="09-settings.html">Settings</a>;</li><li>on every screen except the first, a back arrow. On a computer, the Esc key also goes back; on Android, the system back gesture does.</li></ul>
+<p>The home screen has these tiles:</p>
+<div class="table"><table><thead><tr><th>Tile</th><th>What it opens</th></tr></thead><tbody><tr><td><strong>Calendar</strong></td><td>Prayer times, the month calendar and all the astronomy modes (<a href="02-prayer-times.html">Prayer times</a>, <a href="04-calendar-and-occasions.html">Calendar</a>, <a href="07-sky-moon-astronomy.html">Sky, Moon and astronomy</a>)</td></tr><tr><td><strong>Qibla locator</strong></td><td>The Qibla direction, the Sun method and the Qibla map (<a href="05-qibla.html">The Qibla</a>)</td></tr><tr><td><strong>2D compass</strong></td><td>A compass with the Qibla, the Sun and the Moon</td></tr><tr><td><strong>3D compass</strong></td><td>The local sky as a ball you can turn</td></tr><tr><td><strong>Sky sphere</strong></td><td>The Sun, the Moon, the planets and the stars in 3-D</td></tr><tr><td><strong>Islamic occasions</strong></td><td>The occasions of the Hijri year</td></tr><tr><td><strong>Astronomical calculator</strong></td><td>Year cycles, the Moon at a moment, a historical day (<a href="08-astronomical-calculator.html">The Astronomical Calculator</a>)</td></tr></tbody></table></div>
+<p>To open the app on another screen than the home screen, see <strong>Start screen</strong> in <a href="09-settings.html">Settings</a>.</p>
+<h2 id="change-your-location">Change your location</h2>
+<h3 id="search-for-a-place">Search for a place</h3>
+<ol><li>Tap the place name in the top bar, or the magnifier.</li><li>Type a city or country in <strong>Search for a city or country</strong>. Names work in Arabic and English. Or tap a country under <strong>Countries</strong> to list its places; tap <strong>countries</strong> to go back to the list.</li><li>Tap the place.</li></ol>
+<p>Or tap <strong>Use my location</strong> at the top to use the device's GPS.</p>
+<p>When you pick a new place, the previous one is kept under <strong>Favourites</strong> in Settings → <strong>Location</strong> (up to 20 places), so you can switch back quickly.</p>
+<p>If the new place is in another country whose usual method is different, a line under the top bar offers it, for example "Prayer method for Egypt: Egyptian Authority. Use it?". Tap <strong>Use</strong> to switch, or <strong>Keep</strong> to keep your method.</p>
+<h3 id="from-settings-location">From Settings → Location</h3>
+<p>Settings → <strong>Location</strong> shows the <strong>Current place</strong>, its <strong>Latitude</strong>, <strong>Longitude</strong>, <strong>Elevation</strong>, <strong>Time zone</strong> (with its offset from UTC) and <strong>Source</strong> (how the place was set). Its buttons:</p>
+<ul><li><strong>Change</strong>: opens the place search.</li><li><strong>Choose on the map</strong>: pick a point on the map.</li><li><strong>Enter coordinates</strong>: type a latitude and longitude.</li><li><strong>Edit by hand</strong>: correct the latitude, longitude and <strong>Elevation (m, optional)</strong> of the current place, then tap <strong>Save</strong>.</li></ul>
+<p>Under <strong>Favourites</strong>, tap <strong>Use</strong> to make a favourite the current place, or <strong>Remove</strong> to delete it.</p>
+<h3 id="choose-on-the-map">Choose on the map</h3>
+<ol><li>Open Settings → <strong>Location</strong> → <strong>Choose on the map</strong>.</li><li>Tap the point you want. Or tap <strong>My location</strong> to go to your GPS position.</li><li>A bar under the map shows the nearest named place and the coordinates. Tap <strong>Use this location</strong>, or <strong>Cancel</strong> to tap again.</li></ol>
+<h3 id="typing-coordinates">Typing coordinates</h3>
+<p>Type the latitude first, then the longitude, separated by a comma or a space: <code>21.4225, 39.8262</code>. Taqwim also understands hemisphere letters (<code>21.4225 N, 39.8262 E</code>), degrees-minutes-seconds and Arabic-Indic digits. Latitude must be between −90 and 90, longitude between −180 and 180, and elevation between −500 and 9000 metres.</p>
+<aside class="note"><p>If the place's time zone differs from your device's, Settings → <strong>Location</strong> says so: "This place uses the time zone …; times are shown in that zone." Taqwim always shows times in the place's own time zone, including daylight saving time.</p></aside><nav class="steps"><a href="00-index.html">Previous: Taqwim user manual</a><a href="02-prayer-times.html">Next: Prayer times</a></nav></article>
+</div>
+</main>
+<footer>Taqwim is free for every Muslim. · <a href="../../privacy.html">Privacy</a></footer>
+</body>
+</html>
