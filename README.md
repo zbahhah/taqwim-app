@@ -32,6 +32,8 @@ Taqwim is a free app with no ads and no accounts. It gives:
 
 This repository holds Taqwim's releases, its user manual and its privacy policy. The source code is not public yet.
 
+Each release lists its files' SHA-256 checksums in `SHA256SUMS.txt`. Every Android APK here is signed by the same key, whose certificate's SHA-256 is `994e63b1be9b4863610990095f6b0baed4ffc1d4e3a6a938775e6007b5a469f4` (check with `apksigner verify --print-certs`). The Google Play app is signed by Google's key, so to switch between the two, uninstall first: **Back up settings** (Settings → General) before, and **Restore from a backup** after, keep your settings.
+
 To report a problem or suggest something, open an [issue](https://github.com/zbahhah/taqwim-app/issues).
 
 ## العربية
@@ -54,5 +56,7 @@ To report a problem or suggest something, open an [issue](https://github.com/zba
 | الويب | [النسخة على الويب](https://zbahhah.github.io/taqwim-app/app/)، في المتصفح |
 
 يضم هذا المستودع إصدارات تقويم ودليل المستخدم وسياسة الخصوصية. الشيفرة المصدرية ليست منشورة بعد.
+
+في كل إصدار ملف `SHA256SUMS.txt` فيه بصمات SHA-256 لملفاته. وكل ملفات APK هنا موقّعة بمفتاح واحد، بصمة شهادته SHA-256 هي `994e63b1be9b4863610990095f6b0baed4ffc1d4e3a6a938775e6007b5a469f4` (تتحقق منها بالأمر `apksigner verify --print-certs`). أما نسخة Google Play فموقّعة بمفتاح Google، فللانتقال بين النسختين احذف التطبيق أولًا، واحفظ إعداداتك قبل ذلك بـ**حفظ نسخة احتياطية** (الإعدادات ← عام) ثم استعدها بعد التثبيت.
 
 للإبلاغ عن مشكلة أو تقديم اقتراح، افتح [بلاغًا](https://github.com/zbahhah/taqwim-app/issues).
